@@ -1,13 +1,16 @@
-# Reports System
-![Reports System](/ss.png)
+# Pixel Share
+![Pixel Share](/ss.png)
 
-### 🌟 Hospital Reports Management System
-### 🚀 API integrated interface to store and alter patient reports.
+### 🌟 Screen Sharing ElectronApp
+### 🚀 NodeJs + WebSocket powered screen sharing application
 
 ## Introduction
 
-A minor project that allows users and view their reports and admin to add, delete and update records, with the help of APIs creatd in the project.
+A screen sharing application that allows a user to share screen with multiple other users.
 
-It is made using Html, Css, Js, NodeJs, Express, Ejs and MongoDB.
+It is made using Html, Css, Js, NodeJs, Express, Electron and Socket.io.
 
-## Visit the website here - https://reportsystem.onrender.com/
+<!-- ## To run this Project
+
+
+ -->
