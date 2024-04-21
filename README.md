@@ -33,6 +33,6 @@ It is made using Html, Css, Js, NodeJs, Express, Electron and Socket.io.
     • Update ip in line 5  in app.js   (client)
     • Update ip in line 26 in index.js (server)
 
-## Screen SHARING STARTED!!
+### SCREEN SHARING STARTED!!
 
 
