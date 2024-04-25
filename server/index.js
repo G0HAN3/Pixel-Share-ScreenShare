@@ -7,12 +7,12 @@ app.get('/', (req, res) => {
 })
  
 io.on('connection', (socket)=> {
-
+  
     socket.on("join-message", (roomId) => {
-        socket.join(roomId);
+        socket.join(roomId);  
         console.log("User joined in a room : " + roomId);
-    })
-
+    }) 
+ 
     socket.on("screen-data", function(data) {
         data = JSON.parse(data);
         var room = data.room;

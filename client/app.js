@@ -25,9 +25,10 @@ app.whenReady().then(createWindow)
 
 app.on('window-all-closed', () => {
     // if platform is mac don't quit in background.
-    if (process.platform !== 'darwin') {
-        app.quit()
-    }
+    // if (process.platform !== 'darwin') {
+    //     app.quit()
+    // }
+    app.quit();
 })
 
 app.on('activate', () => {
@@ -44,7 +45,9 @@ ipcMain.on("start-share", function(event, arg) {
 
     interval = setInterval(function() {
         screenshot().then((img) => {
-            var imgStr = new Buffer(img).toString('base64');
+            // var imgStr = new Buffer(img).toString('base64');
+            var imgStr = Buffer.from(img).toString('base64');
+
 
             var obj = {};
             obj.room = uuid;
